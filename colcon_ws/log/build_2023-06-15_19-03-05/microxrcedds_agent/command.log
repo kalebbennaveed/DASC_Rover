@@ -1,4 +1,0 @@
-Invoking command in '/root/colcon_ws/build/microxrcedds_agent': /usr/bin/cmake --build /root/colcon_ws/build/microxrcedds_agent -- -j8 -l8
-Invoked command in '/root/colcon_ws/build/microxrcedds_agent' returned '0': /usr/bin/cmake --build /root/colcon_ws/build/microxrcedds_agent -- -j8 -l8
-Invoking command in '/root/colcon_ws/build/microxrcedds_agent': /usr/bin/cmake --install /root/colcon_ws/build/microxrcedds_agent
-Invoked command in '/root/colcon_ws/build/microxrcedds_agent' returned '0': /usr/bin/cmake --install /root/colcon_ws/build/microxrcedds_agent

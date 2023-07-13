@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/ucdr"
+		},
+		{
+			"file" : "/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/ucdr.rule"
+		},
+		{
+			"file" : "/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/ucdr-complete.rule"
+		},
+		{
+			"file" : "/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-install.rule"
+		},
+		{
+			"file" : "/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-mkdir.rule"
+		},
+		{
+			"file" : "/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-download.rule"
+		},
+		{
+			"file" : "/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-update.rule"
+		},
+		{
+			"file" : "/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-patch.rule"
+		},
+		{
+			"file" : "/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-configure.rule"
+		},
+		{
+			"file" : "/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ucdr"
+		],
+		"name" : "ucdr"
+	}
+}

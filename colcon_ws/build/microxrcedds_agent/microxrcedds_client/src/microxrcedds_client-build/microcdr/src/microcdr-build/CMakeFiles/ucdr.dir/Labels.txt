@@ -1,0 +1,13 @@
+# Target labels
+ ucdr
+# Source files and their labels
+/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/ucdr
+/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/ucdr.rule
+/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/ucdr-complete.rule
+/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-install.rule
+/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-mkdir.rule
+/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-download.rule
+/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-update.rule
+/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-patch.rule
+/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-configure.rule
+/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-build.rule

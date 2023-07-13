@@ -1,0 +1,13 @@
+# Target labels
+ microxrcedds_client
+# Source files and their labels
+/root/colcon_ws/build/microxrcedds_agent/CMakeFiles/microxrcedds_client
+/root/colcon_ws/build/microxrcedds_agent/CMakeFiles/microxrcedds_client.rule
+/root/colcon_ws/build/microxrcedds_agent/CMakeFiles/microxrcedds_client-complete.rule
+/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-install.rule
+/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-mkdir.rule
+/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-download.rule
+/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-update.rule
+/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-patch.rule
+/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-configure.rule
+/root/colcon_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-build.rule

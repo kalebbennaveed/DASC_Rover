@@ -1,0 +1,1178 @@
+[0.000000] (-) TimerEvent: {}
+[0.001153] (microxrcedds_agent) JobQueued: {'identifier': 'microxrcedds_agent', 'dependencies': OrderedDict()}
+[0.001252] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.001282] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/root/colcon_ws/install/px4_msgs')])}
+[0.001332] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.018163] (microxrcedds_agent) JobStarted: {'identifier': 'microxrcedds_agent'}
+[0.035957] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.036971] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'build'}
+[0.037991] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/colcon_ws/build/px4_msgs', '--', '-j8', '-l8'], 'cwd': '/root/colcon_ws/build/px4_msgs', 'env': OrderedDict([('JAVA_TOOL_OPTIONS', '-Dfile.encoding=UTF8'), ('HOSTNAME', 'kaleb-Inspiron-3847'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/colcon_ws/install/px4_ros_com/lib:/root/colcon_ws/install/px4_msgs/lib:/root/colcon_ws/install/microxrcedds_agent/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/colcon_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('CCACHE_UMASK', '000'), ('COLCON_PREFIX_PATH', '/root/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/colcon_ws/install/microxrcedds_agent/bin:/opt/ros/foxy/bin:/usr/lib/ccache:/opt/gradle/gradle-6.3-rc-4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FASTRTPSGEN_DIR', '/usr/local/bin/'), ('AMENT_PREFIX_PATH', '/root/colcon_ws/install/px4_ros_com:/root/colcon_ws/install/px4_msgs:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/colcon_ws/build/px4_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'UTC'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/colcon_ws/install/px4_ros_com:/root/colcon_ws/install/px4_msgs:/root/colcon_ws/install/microxrcedds_agent:/opt/ros/foxy')]), 'shell': False}
+[0.044105] (microxrcedds_agent) JobProgress: {'identifier': 'microxrcedds_agent', 'progress': 'cmake'}
+[0.044794] (microxrcedds_agent) JobProgress: {'identifier': 'microxrcedds_agent', 'progress': 'build'}
+[0.045082] (microxrcedds_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/colcon_ws/build/microxrcedds_agent', '--', '-j8', '-l8'], 'cwd': '/root/colcon_ws/build/microxrcedds_agent', 'env': OrderedDict([('JAVA_TOOL_OPTIONS', '-Dfile.encoding=UTF8'), ('HOSTNAME', 'kaleb-Inspiron-3847'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/colcon_ws/install/px4_ros_com/lib:/root/colcon_ws/install/px4_msgs/lib:/root/colcon_ws/install/microxrcedds_agent/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/colcon_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('CCACHE_UMASK', '000'), ('COLCON_PREFIX_PATH', '/root/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/colcon_ws/install/microxrcedds_agent/bin:/opt/ros/foxy/bin:/usr/lib/ccache:/opt/gradle/gradle-6.3-rc-4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FASTRTPSGEN_DIR', '/usr/local/bin/'), ('AMENT_PREFIX_PATH', '/root/colcon_ws/install/px4_ros_com:/root/colcon_ws/install/px4_msgs:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/colcon_ws/build/microxrcedds_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'UTC'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/colcon_ws/install/px4_ros_com:/root/colcon_ws/install/px4_msgs:/root/colcon_ws/install/microxrcedds_agent')]), 'shell': False}
+[0.099969] (-) TimerEvent: {}
+[0.131061] (px4_msgs) StdoutLine: {'line': b'[  0%] Built target px4_msgs__cpp\n'}
+[0.138315] (px4_msgs) StdoutLine: {'line': b'[ 12%] Built target px4_msgs__rosidl_generator_c\n'}
+[0.168948] (microxrcedds_agent) StdoutLine: {'line': b'[ 96%] Built target microxrcedds_agent\n'}
+[0.178093] (px4_msgs) StdoutLine: {'line': b'[ 24%] Built target px4_msgs__rosidl_typesupport_cpp\n'}
+[0.178442] (px4_msgs) StdoutLine: {'line': b'[ 37%] Built target px4_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.184355] (px4_msgs) StdoutLine: {'line': b'[ 50%] Built target px4_msgs__rosidl_typesupport_introspection_c\n'}
+[0.191581] (px4_msgs) StdoutLine: {'line': b'[ 62%] Built target px4_msgs__rosidl_typesupport_c\n'}
+[0.192622] (px4_msgs) StdoutLine: {'line': b'[ 74%] Built target px4_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.199980] (-) TimerEvent: {}
+[0.201475] (microxrcedds_agent) StdoutLine: {'line': b'[100%] Built target MicroXRCEAgent\n'}
+[0.217504] (microxrcedds_agent) CommandEnded: {'returncode': 0}
+[0.237172] (px4_msgs) StdoutLine: {'line': b'[ 86%] Built target px4_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.266694] (px4_msgs) StdoutLine: {'line': b'[ 86%] Built target px4_msgs\n'}
+[0.297077] (px4_msgs) StdoutLine: {'line': b'[ 86%] Built target px4_msgs__py\n'}
+[0.300064] (-) TimerEvent: {}
+[0.333126] (microxrcedds_agent) JobProgress: {'identifier': 'microxrcedds_agent', 'progress': 'install'}
+[0.348424] (microxrcedds_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/colcon_ws/build/microxrcedds_agent'], 'cwd': '/root/colcon_ws/build/microxrcedds_agent', 'env': OrderedDict([('JAVA_TOOL_OPTIONS', '-Dfile.encoding=UTF8'), ('HOSTNAME', 'kaleb-Inspiron-3847'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/colcon_ws/install/px4_ros_com/lib:/root/colcon_ws/install/px4_msgs/lib:/root/colcon_ws/install/microxrcedds_agent/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/colcon_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('CCACHE_UMASK', '000'), ('COLCON_PREFIX_PATH', '/root/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/colcon_ws/install/microxrcedds_agent/bin:/opt/ros/foxy/bin:/usr/lib/ccache:/opt/gradle/gradle-6.3-rc-4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FASTRTPSGEN_DIR', '/usr/local/bin/'), ('AMENT_PREFIX_PATH', '/root/colcon_ws/install/px4_ros_com:/root/colcon_ws/install/px4_msgs:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/colcon_ws/build/microxrcedds_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'UTC'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/colcon_ws/install/px4_ros_com:/root/colcon_ws/install/px4_msgs:/root/colcon_ws/install/microxrcedds_agent')]), 'shell': False}
+[0.353472] (px4_msgs) StdoutLine: {'line': b'[ 98%] Built target px4_msgs__python\n'}
+[0.364061] (microxrcedds_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.364447] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so.2.4.0\n'}
+[0.364635] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so.2.4\n'}
+[0.364981] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so\n'}
+[0.365342] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent\n'}
+[0.365622] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/logger\n'}
+[0.365907] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/logger/Logger.hpp\n'}
+[0.366154] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/Root.hpp\n'}
+[0.366392] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/Agent.hpp\n'}
+[0.366656] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/AgentInstance.hpp\n'}
+[0.366899] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/publisher\n'}
+[0.367161] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/publisher/Publisher.hpp\n'}
+[0.367396] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/scheduler\n'}
+[0.367657] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/scheduler/PacketScheduler.hpp\n'}
+[0.367902] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/scheduler/Scheduler.hpp\n'}
+[0.368130] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/participant\n'}
+[0.368254] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/participant/Participant.hpp\n'}
+[0.368354] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/middleware\n'}
+[0.368458] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/middleware/Middleware.hpp\n'}
+[0.368568] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/middleware/ced\n'}
+[0.368746] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/middleware/ced/CedEntities.hpp\n'}
+[0.368839] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp\n'}
+[0.369104] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fastdds\n'}
+[0.369327] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp\n'}
+[0.369458] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp\n'}
+[0.369570] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/middleware/utils\n'}
+[0.369679] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/middleware/utils/Callbacks.hpp\n'}
+[0.369788] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fast\n'}
+[0.369903] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fast/FastEntities.hpp\n'}
+[0.369968] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp\n'}
+[0.370035] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport\n'}
+[0.370108] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint\n'}
+[0.370173] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp\n'}
+[0.370234] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp\n'}
+[0.370297] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp\n'}
+[0.370362] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp\n'}
+[0.370425] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp\n'}
+[0.370493] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp\n'}
+[0.370598] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/Server.hpp\n'}
+[0.370683] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/p2p\n'}
+[0.370745] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp\n'}
+[0.370808] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp\n'}
+[0.370883] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/SessionManager.hpp\n'}
+[0.370948] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/discovery\n'}
+[0.371010] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp\n'}
+[0.371072] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp\n'}
+[0.371134] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp\n'}
+[0.371200] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/stream_framing\n'}
+[0.371263] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp\n'}
+[0.371324] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/custom\n'}
+[0.371388] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/custom/CustomAgent.hpp\n'}
+[0.371451] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/TransportRc.hpp\n'}
+[0.371526] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/can\n'}
+[0.371612] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp\n'}
+[0.371709] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp\n'}
+[0.371814] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp\n'}
+[0.371879] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp\n'}
+[0.371973] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp\n'}
+[0.372039] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp\n'}
+[0.372105] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp\n'}
+[0.372167] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp\n'}
+[0.372225] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/util\n'}
+[0.372305] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp\n'}
+[0.372403] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp\n'}
+[0.372586] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial\n'}
+[0.372817] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp\n'}
+[0.373058] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp\n'}
+[0.373279] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp\n'}
+[0.374915] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h\n'}
+[0.375330] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp\n'}
+[0.375461] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp\n'}
+[0.376339] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp\n'}
+[0.376466] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp\n'}
+[0.376577] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp\n'}
+[0.376693] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp\n'}
+[0.376839] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp\n'}
+[0.377034] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/reader\n'}
+[0.377142] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/reader/Reader.hpp\n'}
+[0.377212] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/visibility.hpp\n'}
+[0.377280] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/subscriber\n'}
+[0.377423] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/subscriber/Subscriber.hpp\n'}
+[0.377491] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/p2p\n'}
+[0.377553] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/p2p/InternalClientManager.hpp\n'}
+[0.377614] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/p2p/InternalClient.hpp\n'}
+[0.377673] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/replier\n'}
+[0.377733] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/replier/Replier.hpp\n'}
+[0.377791] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/datareader\n'}
+[0.377850] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/datareader/DataReader.hpp\n'}
+[0.377910] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/types\n'}
+[0.377969] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/types/SubMessageHeader.hpp\n'}
+[0.378036] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/types/MessageHeader.hpp\n'}
+[0.378093] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/types/TopicPubSubType.hpp\n'}
+[0.378150] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/types/XRCETypes.hpp\n'}
+[0.378207] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/types/Optional.hpp\n'}
+[0.378263] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/datawriter\n'}
+[0.378319] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/datawriter/DataWriter.hpp\n'}
+[0.378376] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/topic\n'}
+[0.378431] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/topic/Topic.hpp\n'}
+[0.378493] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/utils\n'}
+[0.378553] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/utils/Time.hpp\n'}
+[0.378632] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/utils/Functions.hpp\n'}
+[0.378690] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/utils/Color.hpp\n'}
+[0.378748] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/utils/TokenBucket.hpp\n'}
+[0.378807] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/utils/SharedMutexPriority.hpp\n'}
+[0.378871] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/utils/SharedMutex.hpp\n'}
+[0.378928] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/utils/ArgumentParser.hpp\n'}
+[0.378984] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/utils/Conversion.hpp\n'}
+[0.379039] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/utils/SeqNum.hpp\n'}
+[0.379141] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/requester\n'}
+[0.379206] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/requester/Requester.hpp\n'}
+[0.379267] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/processor\n'}
+[0.379328] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/processor/Processor.hpp\n'}
+[0.379391] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/message\n'}
+[0.379451] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/message/Packet.hpp\n'}
+[0.379512] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/message/InputMessage.hpp\n'}
+[0.379583] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/message/OutputMessage.hpp\n'}
+[0.379644] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/object\n'}
+[0.379704] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/object/XRCEObject.hpp\n'}
+[0.379763] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/client\n'}
+[0.379823] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/client/session\n'}
+[0.379882] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/client/session/SessionInfo.hpp\n'}
+[0.379941] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/client/session/Session.hpp\n'}
+[0.380001] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/client/session/stream\n'}
+[0.380186] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/client/session/stream/InputStream.hpp\n'}
+[0.380593] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/client/session/stream/OutputStream.hpp\n'}
+[0.383503] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/client/ProxyClient.hpp\n'}
+[0.383846] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake\n'}
+[0.384117] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake\n'}
+[0.384289] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/bin/MicroXRCEAgent\n'}
+[0.384509] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/agent/config.hpp\n'}
+[0.384786] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/share/microxrcedds_agent/LICENSE\n'}
+[0.390356] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake\n'}
+[0.390702] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake\n'}
+[0.391021] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent\n'}
+[0.392412] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib\n'}
+[0.392548] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib/libmicrocdr.so.2.0\n'}
+[0.392783] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib/libmicrocdr.so\n'}
+[0.393003] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib/libmicrocdr.so.2.0.1\n'}
+[0.393143] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include\n'}
+[0.393224] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/ucdr\n'}
+[0.393292] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/ucdr/config.h\n'}
+[0.393377] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/ucdr/microcdr.h\n'}
+[0.393444] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/ucdr/visibility.h\n'}
+[0.393509] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/share\n'}
+[0.394943] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/share/microcdr\n'}
+[0.395069] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/share/microcdr/cmake\n'}
+[0.395249] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/share/microcdr/cmake/microcdrTargets-release.cmake\n'}
+[0.395386] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/share/microcdr/cmake/microcdrConfigVersion.cmake\n'}
+[0.395463] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/share/microcdr/cmake/microcdrConfig.cmake\n'}
+[0.395592] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/share/microcdr/cmake/microcdrTargets.cmake\n'}
+[0.395690] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent\n'}
+[0.396599] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib\n'}
+[0.397224] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib/libmicroxrcedds_client.so.2.4.0\n'}
+[0.397507] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib/libmicroxrcedds_client.so\n'}
+[0.397608] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib/libmicroxrcedds_client.so.2.4\n'}
+[0.397685] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include\n'}
+[0.397812] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr\n'}
+[0.397953] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client\n'}
+[0.398029] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/defines.h\n'}
+[0.398131] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile\n'}
+[0.398317] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport\n'}
+[0.398408] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/stream_framing\n'}
+[0.398527] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h\n'}
+[0.398637] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip\n'}
+[0.398696] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp\n'}
+[0.398752] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h\n'}
+[0.398842] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h\n'}
+[0.398915] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h\n'}
+[0.399002] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h\n'}
+[0.402316] (-) TimerEvent: {}
+[0.402782] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h\n'}
+[0.403466] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h\n'}
+[0.403965] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp\n'}
+[0.404719] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport.h\n'}
+[0.405249] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h\n'}
+[0.405685] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h\n'}
+[0.406363] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h\n'}
+[0.407359] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h\n'}
+[0.407705] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h\n'}
+[0.411326] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/ip.h\n'}
+[0.411432] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/custom\n'}
+[0.411673] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/custom/custom_transport.h\n'}
+[0.411797] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/can\n'}
+[0.411921] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/can/can_transport.h\n'}
+[0.412157] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/can/can_transport_posix.h\n'}
+[0.412350] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial\n'}
+[0.412462] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport_platform.h\n'}
+[0.412591] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport.h\n'}
+[0.413151] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport_posix.h\n'}
+[0.413301] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h\n'}
+[0.413525] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/multithread\n'}
+[0.413705] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/multithread/multithread.h\n'}
+[0.417415] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/discovery\n'}
+[0.417544] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/profile/discovery/discovery.h\n'}
+[0.417666] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/client.h\n'}
+[0.417943] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core\n'}
+[0.418146] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session\n'}
+[0.418265] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session/common_create_entities.h\n'}
+[0.418488] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session/create_entities_ref.h\n'}
+[0.419007] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session/session.h\n'}
+[0.419128] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session/read_access.h\n'}
+[0.419253] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session/session_info.h\n'}
+[0.419779] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session/object_id.h\n'}
+[0.420290] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session/time_sync.h\n'}
+[0.425504] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session/create_entities_xml.h\n'}
+[0.425951] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session/write_access.h\n'}
+[0.426154] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session/create_entities_bin.h\n'}
+[0.426269] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream\n'}
+[0.426455] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/input_best_effort_stream.h\n'}
+[0.426780] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/seq_num.h\n'}
+[0.426909] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/stream_id.h\n'}
+[0.430498] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/reliable_stream.h\n'}
+[0.431318] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/input_reliable_stream.h\n'}
+[0.431593] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/stream_storage.h\n'}
+[0.432052] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/output_reliable_stream.h\n'}
+[0.432156] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/output_best_effort_stream.h\n'}
+[0.432268] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/communication\n'}
+[0.432540] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/communication/communication.h\n'}
+[0.433325] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/type\n'}
+[0.433449] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/core/type/xrce_types.h\n'}
+[0.433566] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/config.h\n'}
+[0.433723] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/transport.h\n'}
+[0.433912] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/util\n'}
+[0.434394] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/util/time.h\n'}
+[0.434511] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/util/ping.h\n'}
+[0.434751] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/uxr/client/visibility.h\n'}
+[0.435256] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/share\n'}
+[0.435387] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/share/microxrcedds_client\n'}
+[0.435708] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake\n'}
+[0.435821] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake\n'}
+[0.436465] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake\n'}
+[0.437891] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake\n'}
+[0.438349] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake\n'}
+[0.438907] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent\n'}
+[0.441169] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib\n'}
+[0.441447] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib/pkgconfig\n'}
+[0.441546] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib/pkgconfig/spdlog.pc\n'}
+[0.441641] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib/cmake\n'}
+[0.442390] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib/cmake/spdlog\n'}
+[0.442810] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib/cmake/spdlog/spdlogConfigVersion.cmake\n'}
+[0.442897] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib/cmake/spdlog/spdlogConfigTargets.cmake\n'}
+[0.442975] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib/cmake/spdlog/spdlogConfigTargets-release.cmake\n'}
+[0.443051] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib/cmake/spdlog/spdlogConfig.cmake\n'}
+[0.443126] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/lib/libspdlog.a\n'}
+[0.443199] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include\n'}
+[0.443272] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog\n'}
+[0.443343] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/async.h\n'}
+[0.443413] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fwd.h\n'}
+[0.443500] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/spdlog-inl.h\n'}
+[0.443570] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/common.h\n'}
+[0.443645] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/formatter.h\n'}
+[0.443718] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt\n'}
+[0.443795] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/chrono.h\n'}
+[0.443871] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/compile.h\n'}
+[0.443943] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/bin_to_hex.h\n'}
+[0.444013] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/xchar.h\n'}
+[0.444084] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled\n'}
+[0.444155] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/color.h\n'}
+[0.444227] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/ostream.h\n'}
+[0.444296] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/chrono.h\n'}
+[0.444368] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/printf.h\n'}
+[0.444446] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/compile.h\n'}
+[0.444518] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/format.h\n'}
+[0.444593] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/xchar.h\n'}
+[0.444664] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/os.h\n'}
+[0.444746] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/core.h\n'}
+[0.444960] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/locale.h\n'}
+[0.445086] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/ranges.h\n'}
+[0.445164] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/args.h\n'}
+[0.445234] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/format-inl.h\n'}
+[0.445304] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/fmt.h\n'}
+[0.445374] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/fmt/ostr.h\n'}
+[0.445443] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks\n'}
+[0.445517] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/syslog_sink.h\n'}
+[0.445591] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/stdout_sinks-inl.h\n'}
+[0.445666] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/ansicolor_sink-inl.h\n'}
+[0.445739] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/sink.h\n'}
+[0.445812] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/msvc_sink.h\n'}
+[0.445885] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/dist_sink.h\n'}
+[0.445956] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/base_sink.h\n'}
+[0.446026] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/dup_filter_sink.h\n'}
+[0.446094] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/systemd_sink.h\n'}
+[0.446162] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/stdout_sinks.h\n'}
+[0.446231] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/stdout_color_sinks.h\n'}
+[0.446302] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/wincolor_sink-inl.h\n'}
+[0.446373] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/hourly_file_sink.h\n'}
+[0.446441] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/wincolor_sink.h\n'}
+[0.446512] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/basic_file_sink-inl.h\n'}
+[0.446636] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/ansicolor_sink.h\n'}
+[0.446707] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/ostream_sink.h\n'}
+[0.446773] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/base_sink-inl.h\n'}
+[0.446838] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/rotating_file_sink.h\n'}
+[0.446902] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/tcp_sink.h\n'}
+[0.446976] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/null_sink.h\n'}
+[0.447042] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/android_sink.h\n'}
+[0.447107] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/rotating_file_sink-inl.h\n'}
+[0.447173] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/stdout_color_sinks-inl.h\n'}
+[0.447238] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/daily_file_sink.h\n'}
+[0.447304] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/win_eventlog_sink.h\n'}
+[0.447370] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/ringbuffer_sink.h\n'}
+[0.447436] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/mongo_sink.h\n'}
+[0.447501] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/qt_sinks.h\n'}
+[0.447572] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/sink-inl.h\n'}
+[0.447638] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/sinks/basic_file_sink.h\n'}
+[0.447703] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/stopwatch.h\n'}
+[0.447767] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/pattern_formatter.h\n'}
+[0.447833] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/common-inl.h\n'}
+[0.447898] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/pattern_formatter-inl.h\n'}
+[0.447962] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/logger.h\n'}
+[0.448031] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/version.h\n'}
+[0.448098] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details\n'}
+[0.448163] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/registry.h\n'}
+[0.448228] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/log_msg.h\n'}
+[0.448293] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/tcp_client.h\n'}
+[0.448358] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/synchronous_factory.h\n'}
+[0.448429] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/backtracer-inl.h\n'}
+[0.448495] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/console_globals.h\n'}
+[0.448560] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/mpmc_blocking_q.h\n'}
+[0.448625] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/os-inl.h\n'}
+[0.448690] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/backtracer.h\n'}
+[0.448784] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/os.h\n'}
+[0.448963] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/registry-inl.h\n'}
+[0.449091] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/thread_pool-inl.h\n'}
+[0.449164] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/thread_pool.h\n'}
+[0.449237] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/null_mutex.h\n'}
+[0.449306] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/file_helper-inl.h\n'}
+[0.449376] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/log_msg-inl.h\n'}
+[0.449442] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/fmt_helper.h\n'}
+[0.449508] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/circular_q.h\n'}
+[0.449574] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/periodic_worker-inl.h\n'}
+[0.449641] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/windows_include.h\n'}
+[0.449708] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/periodic_worker.h\n'}
+[0.449774] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/log_msg_buffer.h\n'}
+[0.449840] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/log_msg_buffer-inl.h\n'}
+[0.449906] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/file_helper.h\n'}
+[0.449972] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/details/tcp_client-windows.h\n'}
+[0.450049] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/logger-inl.h\n'}
+[0.450115] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/async_logger.h\n'}
+[0.450181] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/cfg\n'}
+[0.450246] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/cfg/argv.h\n'}
+[0.450314] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/cfg/env.h\n'}
+[0.450380] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/cfg/helpers.h\n'}
+[0.450453] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/cfg/helpers-inl.h\n'}
+[0.450523] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/async_logger-inl.h\n'}
+[0.450607] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/spdlog.h\n'}
+[0.450677] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/microxrcedds_agent/include/spdlog/tweakme.h\n'}
+[0.450750] (microxrcedds_agent) CommandEnded: {'returncode': 0}
+[0.451257] (px4_msgs) StdoutLine: {'line': b'[ 98%] Built target px4_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.451388] (px4_msgs) StdoutLine: {'line': b'[ 99%] Built target px4_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.451471] (px4_msgs) StdoutLine: {'line': b'[100%] Built target px4_msgs__rosidl_typesupport_c__pyext\n'}
+[0.451552] (microxrcedds_agent) JobEnded: {'identifier': 'microxrcedds_agent', 'rc': 0}
+[0.452235] (px4_msgs) CommandEnded: {'returncode': 0}
+[0.502522] (-) TimerEvent: {}
+[0.603251] (-) TimerEvent: {}
+[0.703569] (-) TimerEvent: {}
+[0.803914] (-) TimerEvent: {}
+[0.904634] (-) TimerEvent: {}
+[1.004890] (-) TimerEvent: {}
+[1.023759] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'install'}
+[1.024040] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/colcon_ws/build/px4_msgs'], 'cwd': '/root/colcon_ws/build/px4_msgs', 'env': OrderedDict([('JAVA_TOOL_OPTIONS', '-Dfile.encoding=UTF8'), ('HOSTNAME', 'kaleb-Inspiron-3847'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/colcon_ws/install/px4_ros_com/lib:/root/colcon_ws/install/px4_msgs/lib:/root/colcon_ws/install/microxrcedds_agent/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/colcon_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('CCACHE_UMASK', '000'), ('COLCON_PREFIX_PATH', '/root/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/colcon_ws/install/microxrcedds_agent/bin:/opt/ros/foxy/bin:/usr/lib/ccache:/opt/gradle/gradle-6.3-rc-4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FASTRTPSGEN_DIR', '/usr/local/bin/'), ('AMENT_PREFIX_PATH', '/root/colcon_ws/install/px4_ros_com:/root/colcon_ws/install/px4_msgs:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/colcon_ws/build/px4_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'UTC'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/colcon_ws/install/px4_ros_com:/root/colcon_ws/install/px4_msgs:/root/colcon_ws/install/microxrcedds_agent:/opt/ros/foxy')]), 'shell': False}
+[1.037724] (px4_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.038163] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/ament_index/resource_index/rosidl_interfaces/px4_msgs\n'}
+[1.038402] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs\n'}
+[1.038805] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg\n'}
+[1.038976] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_trajectory_bezier.h\n'}
+[1.039122] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_attitude_setpoint.h\n'}
+[1.039199] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/parameter_req.h\n'}
+[1.039313] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_local_position.h\n'}
+[1.039773] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/collision_constraints.h\n'}
+[1.040088] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/commander_set_state.h\n'}
+[1.040192] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.h\n'}
+[1.040257] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail\n'}
+[1.040341] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/timesync_status__struct.h\n'}
+[1.040472] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_odometry__functions.h\n'}
+[1.040664] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_global_position__type_support.h\n'}
+[1.040728] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/obstacle_distance__type_support.h\n'}
+[1.040837] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/failsafe_flags__type_support.h\n'}
+[1.040971] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/telemetry_status__functions.c\n'}
+[1.041028] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_waypoint__functions.c\n'}
+[1.041085] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__type_support.h\n'}
+[1.041142] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_status__type_support.h\n'}
+[1.041223] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_control_mode__struct.h\n'}
+[1.041299] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_local_position__struct.h\n'}
+[1.041488] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_res__functions.c\n'}
+[1.041655] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/collision_constraints__functions.h\n'}
+[1.041945] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_bezier__type_support.h\n'}
+[1.042088] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_angular_velocity__functions.h\n'}
+[1.042294] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_rates_setpoint__functions.c\n'}
+[1.042368] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__functions.c\n'}
+[1.042438] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/onboard_computer_status__functions.h\n'}
+[1.042571] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/obstacle_distance__struct.h\n'}
+[1.042637] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_waypoint__type_support.h\n'}
+[1.042696] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/onboard_computer_status__struct.h\n'}
+[1.042758] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_set_state__functions.h\n'}
+[1.042898] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/onboard_computer_status__functions.c\n'}
+[1.043034] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/debug_vect__functions.h\n'}
+[1.043142] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_angular_velocity__functions.c\n'}
+[1.043260] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_local_position__type_support.h\n'}
+[1.043389] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/action_request__functions.h\n'}
+[1.043538] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_global_position__functions.h\n'}
+[1.043613] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_combined__functions.h\n'}
+[1.043705] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/telemetry_status__type_support.h\n'}
+[1.043765] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_waypoint__functions.h\n'}
+[1.043824] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_bezier__functions.c\n'}
+[1.043893] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/collision_constraints__type_support.h\n'}
+[1.044009] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_bezier__struct.h\n'}
+[1.044158] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__functions.c\n'}
+[1.044322] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_command__struct.h\n'}
+[1.044564] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_res__type_support.h\n'}
+[1.044795] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/debug_vect__functions.c\n'}
+[1.045106] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/obstacle_distance__functions.c\n'}
+[1.045452] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/action_request__type_support.h\n'}
+[1.045973] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_odometry__functions.c\n'}
+[1.046143] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_rates_setpoint__struct.h\n'}
+[1.046301] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/timesync_status__functions.h\n'}
+[1.046487] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_control_mode__functions.c\n'}
+[1.046666] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/action_request__functions.c\n'}
+[1.046735] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_set_state__functions.c\n'}
+[1.046794] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_status__struct.h\n'}
+[1.046849] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_res__struct.h\n'}
+[1.046921] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_set_state__struct.h\n'}
+[1.047007] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_control_mode__functions.h\n'}
+[1.047066] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_status__functions.c\n'}
+[1.047147] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/failsafe_flags__functions.h\n'}
+[1.047341] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_optical_flow__struct.h\n'}
+[1.047472] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude_setpoint__functions.h\n'}
+[1.047594] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude__functions.c\n'}
+[1.047720] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_global_position__struct.h\n'}
+[1.047860] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude_setpoint__type_support.h\n'}
+[1.048005] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_combined__functions.c\n'}
+[1.048140] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude__struct.h\n'}
+[1.048286] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude_setpoint__struct.h\n'}
+[1.048425] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_bezier__functions.h\n'}
+[1.048569] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_control_mode__type_support.h\n'}
+[1.048693] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_waypoint__functions.c\n'}
+[1.048812] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/telemetry_status__struct.h\n'}
+[1.048939] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_rates_setpoint__type_support.h\n'}
+[1.049063] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/debug_vect__type_support.h\n'}
+[1.049189] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_gps__functions.c\n'}
+[1.049303] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_optical_flow__functions.h\n'}
+[1.049589] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/timesync_status__type_support.h\n'}
+[1.049746] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__functions.h\n'}
+[1.049906] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/obstacle_distance__functions.h\n'}
+[1.050039] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__type_support.h\n'}
+[1.050164] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_bezier__functions.c\n'}
+[1.050289] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_set_state__type_support.h\n'}
+[1.050428] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_status__struct.h\n'}
+[1.050530] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/timesync_status__functions.c\n'}
+[1.050619] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_angular_velocity__struct.h\n'}
+[1.050681] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_optical_flow__type_support.h\n'}
+[1.050738] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_combined__type_support.h\n'}
+[1.050795] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_command__functions.h\n'}
+[1.050851] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_odometry__type_support.h\n'}
+[1.050933] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_waypoint__type_support.h\n'}
+[1.050993] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_waypoint__functions.h\n'}
+[1.051051] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/collision_constraints__functions.c\n'}
+[1.051116] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_req__functions.c\n'}
+[1.051175] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude_setpoint__functions.c\n'}
+[1.051233] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/collision_constraints__struct.h\n'}
+[1.051294] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_local_position__functions.h\n'}
+[1.051372] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/failsafe_flags__functions.c\n'}
+[1.051429] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_bezier__struct.h\n'}
+[1.051494] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_command__functions.c\n'}
+[1.051574] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_status__functions.c\n'}
+[1.051653] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_bezier__type_support.h\n'}
+[1.051727] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_waypoint__struct.h\n'}
+[1.051786] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_odometry__struct.h\n'}
+[1.051843] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_req__functions.h\n'}
+[1.051900] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_status__functions.h\n'}
+[1.051957] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_status__functions.h\n'}
+[1.052029] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_command__type_support.h\n'}
+[1.052087] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_gps__type_support.h\n'}
+[1.052153] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/onboard_computer_status__type_support.h\n'}
+[1.052220] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_bezier__functions.h\n'}
+[1.052286] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/telemetry_status__functions.h\n'}
+[1.052341] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_req__struct.h\n'}
+[1.052396] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_angular_velocity__type_support.h\n'}
+[1.052451] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_status__type_support.h\n'}
+[1.052506] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/action_request__struct.h\n'}
+[1.052562] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_res__functions.h\n'}
+[1.052634] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.h\n'}
+[1.052700] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude__type_support.h\n'}
+[1.052756] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_global_position__functions.c\n'}
+[1.052811] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/failsafe_flags__struct.h\n'}
+[1.052866] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_optical_flow__functions.c\n'}
+[1.052921] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_combined__struct.h\n'}
+[1.052976] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_waypoint__struct.h\n'}
+[1.053033] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_gps__functions.h\n'}
+[1.053095] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_local_position__functions.c\n'}
+[1.053152] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__functions.h\n'}
+[1.053217] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_rates_setpoint__functions.h\n'}
+[1.053400] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude__functions.h\n'}
+[1.053513] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_gps__struct.h\n'}
+[1.053596] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/debug_vect__struct.h\n'}
+[1.053657] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__struct.h\n'}
+[1.053726] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_req__type_support.h\n'}
+[1.053787] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/action_request.h\n'}
+[1.053844] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/debug_vect.h\n'}
+[1.053899] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_command.h\n'}
+[1.053955] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/parameter_res.h\n'}
+[1.054009] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_control_mode.h\n'}
+[1.054064] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/sensor_gps.h\n'}
+[1.054119] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/telemetry_status.h\n'}
+[1.054175] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/failsafe_flags.h\n'}
+[1.054230] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/sensor_combined.h\n'}
+[1.054286] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_odometry.h\n'}
+[1.054340] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_angular_velocity.h\n'}
+[1.054395] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/obstacle_distance.h\n'}
+[1.054449] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_global_position.h\n'}
+[1.054503] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_attitude.h\n'}
+[1.054577] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_trajectory_waypoint.h\n'}
+[1.054670] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/trajectory_waypoint.h\n'}
+[1.054726] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_rates_setpoint.h\n'}
+[1.054780] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_status.h\n'}
+[1.054833] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/onboard_computer_status.h\n'}
+[1.054901] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/commander_status.h\n'}
+[1.054956] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.055015] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/trajectory_bezier.h\n'}
+[1.055068] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/timesync_status.h\n'}
+[1.055121] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/sensor_optical_flow.h\n'}
+[1.055173] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/trajectory_setpoint.h\n'}
+[1.055226] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/environment/library_path.sh\n'}
+[1.055279] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/environment/library_path.dsv\n'}
+[1.055332] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_generator_c.so\n'}
+[1.055396] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs\n'}
+[1.055459] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg\n'}
+[1.055512] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail\n'}
+[1.055566] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_optical_flow__rosidl_typesupport_fastrtps_c.h\n'}
+[1.055620] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_rates_setpoint__rosidl_typesupport_fastrtps_c.h\n'}
+[1.055673] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_global_position__rosidl_typesupport_fastrtps_c.h\n'}
+[1.055727] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_control_mode__rosidl_typesupport_fastrtps_c.h\n'}
+[1.055783] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_waypoint__rosidl_typesupport_fastrtps_c.h\n'}
+[1.055852] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude__rosidl_typesupport_fastrtps_c.h\n'}
+[1.055930] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_command__rosidl_typesupport_fastrtps_c.h\n'}
+[1.055994] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_bezier__rosidl_typesupport_fastrtps_c.h\n'}
+[1.056060] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_local_position__rosidl_typesupport_fastrtps_c.h\n'}
+[1.056115] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_combined__rosidl_typesupport_fastrtps_c.h\n'}
+[1.056170] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__rosidl_typesupport_fastrtps_c.h\n'}
+[1.056224] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/action_request__rosidl_typesupport_fastrtps_c.h\n'}
+[1.056279] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/timesync_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.056334] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_bezier__rosidl_typesupport_fastrtps_c.h\n'}
+[1.056389] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/obstacle_distance__rosidl_typesupport_fastrtps_c.h\n'}
+[1.056443] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_res__rosidl_typesupport_fastrtps_c.h\n'}
+[1.056502] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/debug_vect__rosidl_typesupport_fastrtps_c.h\n'}
+[1.056557] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_angular_velocity__rosidl_typesupport_fastrtps_c.h\n'}
+[1.056612] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_fastrtps_c.h\n'}
+[1.056673] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.056749] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude_setpoint__rosidl_typesupport_fastrtps_c.h\n'}
+[1.056814] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/failsafe_flags__rosidl_typesupport_fastrtps_c.h\n'}
+[1.056882] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__rosidl_typesupport_fastrtps_c.h\n'}
+[1.056950] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/collision_constraints__rosidl_typesupport_fastrtps_c.h\n'}
+[1.057006] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_set_state__rosidl_typesupport_fastrtps_c.h\n'}
+[1.057061] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_waypoint__rosidl_typesupport_fastrtps_c.h\n'}
+[1.057115] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_gps__rosidl_typesupport_fastrtps_c.h\n'}
+[1.057170] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_req__rosidl_typesupport_fastrtps_c.h\n'}
+[1.057263] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/telemetry_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.057504] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/onboard_computer_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.057613] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.057677] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.057739] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.057800] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs\n'}
+[1.057867] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg\n'}
+[1.057929] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail\n'}
+[1.057988] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_set_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.058048] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_optical_flow__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.058108] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/debug_vect__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.058167] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/timesync_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.058232] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.058292] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/onboard_computer_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.058353] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.058413] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_gps__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.058473] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.058540] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_waypoint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.058639] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_local_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.058707] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_bezier__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.058773] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.058839] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_global_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.058894] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/collision_constraints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.058951] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_bezier__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.059007] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.059062] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.059127] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/dds_fastrtps\n'}
+[1.059183] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/failsafe_flags__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.059241] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/action_request__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.059304] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_req__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.059359] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/obstacle_distance__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.059413] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_combined__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.059467] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude_setpoint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.059528] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_control_mode__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.059602] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_angular_velocity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.059707] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_waypoint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.059810] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_res__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.059900] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.059983] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_rates_setpoint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.060074] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/telemetry_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.060171] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.060264] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.060355] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs\n'}
+[1.060447] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg\n'}
+[1.060546] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail\n'}
+[1.060645] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_bezier__rosidl_typesupport_introspection_c.h\n'}
+[1.060757] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__rosidl_typesupport_introspection_c.h\n'}
+[1.060846] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_optical_flow__type_support.c\n'}
+[1.060952] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/debug_vect__type_support.c\n'}
+[1.061048] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude__rosidl_typesupport_introspection_c.h\n'}
+[1.061133] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_command__rosidl_typesupport_introspection_c.h\n'}
+[1.061289] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_rates_setpoint__type_support.c\n'}
+[1.061629] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/collision_constraints__rosidl_typesupport_introspection_c.h\n'}
+[1.061857] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude__type_support.c\n'}
+[1.062086] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_control_mode__type_support.c\n'}
+[1.062252] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/obstacle_distance__rosidl_typesupport_introspection_c.h\n'}
+[1.062337] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_control_mode__rosidl_typesupport_introspection_c.h\n'}
+[1.062396] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_bezier__type_support.c\n'}
+[1.062454] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_angular_velocity__rosidl_typesupport_introspection_c.h\n'}
+[1.062519] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__rosidl_typesupport_introspection_c.h\n'}
+[1.062636] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_status__rosidl_typesupport_introspection_c.h\n'}
+[1.062696] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/onboard_computer_status__rosidl_typesupport_introspection_c.h\n'}
+[1.062752] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_bezier__type_support.c\n'}
+[1.062808] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_waypoint__type_support.c\n'}
+[1.062873] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_bezier__rosidl_typesupport_introspection_c.h\n'}
+[1.062927] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_waypoint__rosidl_typesupport_introspection_c.h\n'}
+[1.062981] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__type_support.c\n'}
+[1.063035] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_rates_setpoint__rosidl_typesupport_introspection_c.h\n'}
+[1.063093] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_set_state__type_support.c\n'}
+[1.063148] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_set_state__rosidl_typesupport_introspection_c.h\n'}
+[1.063201] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/failsafe_flags__type_support.c\n'}
+[1.063255] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/telemetry_status__rosidl_typesupport_introspection_c.h\n'}
+[1.063309] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_req__rosidl_typesupport_introspection_c.h\n'}
+[1.063362] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_introspection_c.h\n'}
+[1.063415] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_status__rosidl_typesupport_introspection_c.h\n'}
+[1.063468] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_local_position__type_support.c\n'}
+[1.063521] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_res__rosidl_typesupport_introspection_c.h\n'}
+[1.063574] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_combined__type_support.c\n'}
+[1.063627] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/obstacle_distance__type_support.c\n'}
+[1.063679] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_waypoint__type_support.c\n'}
+[1.063733] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_req__type_support.c\n'}
+[1.063787] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_waypoint__rosidl_typesupport_introspection_c.h\n'}
+[1.063841] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_status__type_support.c\n'}
+[1.063910] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude_setpoint__type_support.c\n'}
+[1.063975] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_gps__type_support.c\n'}
+[1.064051] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/timesync_status__rosidl_typesupport_introspection_c.h\n'}
+[1.064104] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_angular_velocity__type_support.c\n'}
+[1.064158] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/action_request__rosidl_typesupport_introspection_c.h\n'}
+[1.064211] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_command__type_support.c\n'}
+[1.064265] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude_setpoint__rosidl_typesupport_introspection_c.h\n'}
+[1.064319] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_global_position__rosidl_typesupport_introspection_c.h\n'}
+[1.064372] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_combined__rosidl_typesupport_introspection_c.h\n'}
+[1.064426] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_local_position__rosidl_typesupport_introspection_c.h\n'}
+[1.064487] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/action_request__type_support.c\n'}
+[1.064542] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_global_position__type_support.c\n'}
+[1.064596] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/telemetry_status__type_support.c\n'}
+[1.064650] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_res__type_support.c\n'}
+[1.064703] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_status__type_support.c\n'}
+[1.064756] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_optical_flow__rosidl_typesupport_introspection_c.h\n'}
+[1.064808] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/failsafe_flags__rosidl_typesupport_introspection_c.h\n'}
+[1.064865] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/timesync_status__type_support.c\n'}
+[1.064935] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_gps__rosidl_typesupport_introspection_c.h\n'}
+[1.065002] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/collision_constraints__type_support.c\n'}
+[1.065067] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__type_support.c\n'}
+[1.065120] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/onboard_computer_status__type_support.c\n'}
+[1.065176] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/debug_vect__rosidl_typesupport_introspection_c.h\n'}
+[1.065290] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_odometry__type_support.c\n'}
+[1.065569] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.065642] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.065703] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_c.so\n'}
+[1.065764] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs\n'}
+[1.065823] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg\n'}
+[1.065882] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_attitude.hpp\n'}
+[1.065942] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_attitude_setpoint.hpp\n'}
+[1.066003] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_status.hpp\n'}
+[1.066063] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail\n'}
+[1.066123] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_waypoint__traits.hpp\n'}
+[1.066183] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__builder.hpp\n'}
+[1.066244] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_rates_setpoint__builder.hpp\n'}
+[1.066303] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_status__traits.hpp\n'}
+[1.066363] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_waypoint__struct.hpp\n'}
+[1.066423] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/timesync_status__struct.hpp\n'}
+[1.066491] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/onboard_computer_status__builder.hpp\n'}
+[1.066545] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/telemetry_status__builder.hpp\n'}
+[1.066663] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_angular_velocity__builder.hpp\n'}
+[1.066718] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/collision_constraints__traits.hpp\n'}
+[1.066772] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_gps__builder.hpp\n'}
+[1.066837] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_req__struct.hpp\n'}
+[1.066901] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_set_state__traits.hpp\n'}
+[1.066955] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/timesync_status__builder.hpp\n'}
+[1.067010] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_command__builder.hpp\n'}
+[1.067071] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_gps__struct.hpp\n'}
+[1.067137] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_status__traits.hpp\n'}
+[1.067201] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_control_mode__traits.hpp\n'}
+[1.067255] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_gps__traits.hpp\n'}
+[1.067314] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_command__struct.hpp\n'}
+[1.067373] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/debug_vect__struct.hpp\n'}
+[1.067428] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_bezier__traits.hpp\n'}
+[1.067483] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_rates_setpoint__struct.hpp\n'}
+[1.067537] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/timesync_status__traits.hpp\n'}
+[1.067591] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_res__traits.hpp\n'}
+[1.067645] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_req__traits.hpp\n'}
+[1.067698] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_rates_setpoint__traits.hpp\n'}
+[1.067752] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_set_state__builder.hpp\n'}
+[1.067805] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/obstacle_distance__traits.hpp\n'}
+[1.067858] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_optical_flow__builder.hpp\n'}
+[1.067911] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/failsafe_flags__traits.hpp\n'}
+[1.067964] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_optical_flow__struct.hpp\n'}
+[1.068017] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_bezier__traits.hpp\n'}
+[1.068071] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_control_mode__builder.hpp\n'}
+[1.068126] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_combined__builder.hpp\n'}
+[1.068179] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/failsafe_flags__builder.hpp\n'}
+[1.068254] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_global_position__struct.hpp\n'}
+[1.068308] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_combined__traits.hpp\n'}
+[1.068362] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp\n'}
+[1.068416] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_bezier__struct.hpp\n'}
+[1.068469] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_status__builder.hpp\n'}
+[1.068522] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__struct.hpp\n'}
+[1.068575] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/action_request__builder.hpp\n'}
+[1.068629] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/telemetry_status__struct.hpp\n'}
+[1.068684] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_global_position__traits.hpp\n'}
+[1.068746] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_global_position__builder.hpp\n'}
+[1.068800] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_angular_velocity__traits.hpp\n'}
+[1.068855] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_set_state__struct.hpp\n'}
+[1.068909] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/collision_constraints__builder.hpp\n'}
+[1.068966] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_odometry__traits.hpp\n'}
+[1.069021] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/failsafe_flags__struct.hpp\n'}
+[1.069074] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_status__struct.hpp\n'}
+[1.069126] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_res__struct.hpp\n'}
+[1.069181] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/action_request__struct.hpp\n'}
+[1.069411] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_status__struct.hpp\n'}
+[1.069552] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude_setpoint__traits.hpp\n'}
+[1.069647] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__traits.hpp\n'}
+[1.069705] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_bezier__struct.hpp\n'}
+[1.069761] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_command__traits.hpp\n'}
+[1.069816] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/debug_vect__builder.hpp\n'}
+[1.069871] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__builder.hpp\n'}
+[1.069926] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_req__builder.hpp\n'}
+[1.069981] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_waypoint__struct.hpp\n'}
+[1.070034] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_waypoint__traits.hpp\n'}
+[1.070088] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/action_request__traits.hpp\n'}
+[1.070141] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude__struct.hpp\n'}
+[1.070195] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_odometry__builder.hpp\n'}
+[1.070248] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/obstacle_distance__builder.hpp\n'}
+[1.070303] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude_setpoint__struct.hpp\n'}
+[1.070378] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude__builder.hpp\n'}
+[1.070433] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_bezier__builder.hpp\n'}
+[1.070495] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_local_position__struct.hpp\n'}
+[1.070551] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_waypoint__builder.hpp\n'}
+[1.070641] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude_setpoint__builder.hpp\n'}
+[1.070697] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_angular_velocity__struct.hpp\n'}
+[1.070752] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_optical_flow__traits.hpp\n'}
+[1.070817] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/debug_vect__traits.hpp\n'}
+[1.070869] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_control_mode__struct.hpp\n'}
+[1.070922] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_waypoint__builder.hpp\n'}
+[1.070974] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude__traits.hpp\n'}
+[1.071027] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_bezier__builder.hpp\n'}
+[1.071091] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_combined__struct.hpp\n'}
+[1.071146] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_local_position__builder.hpp\n'}
+[1.071200] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/onboard_computer_status__traits.hpp\n'}
+[1.071254] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_local_position__traits.hpp\n'}
+[1.071308] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_odometry__struct.hpp\n'}
+[1.071363] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/obstacle_distance__struct.hpp\n'}
+[1.071438] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__traits.hpp\n'}
+[1.071492] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/collision_constraints__struct.hpp\n'}
+[1.071546] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_res__builder.hpp\n'}
+[1.071603] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_status__builder.hpp\n'}
+[1.071659] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/onboard_computer_status__struct.hpp\n'}
+[1.071719] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/telemetry_status__traits.hpp\n'}
+[1.071775] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/parameter_req.hpp\n'}
+[1.071852] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/commander_status.hpp\n'}
+[1.071939] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_local_position.hpp\n'}
+[1.071993] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_trajectory_waypoint.hpp\n'}
+[1.072067] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/obstacle_distance.hpp\n'}
+[1.072128] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_odometry.hpp\n'}
+[1.072183] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_trajectory_bezier.hpp\n'}
+[1.072238] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/timesync_status.hpp\n'}
+[1.072293] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/onboard_computer_status.hpp\n'}
+[1.072348] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_angular_velocity.hpp\n'}
+[1.072402] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/trajectory_setpoint.hpp\n'}
+[1.072457] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/sensor_combined.hpp\n'}
+[1.072512] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/commander_set_state.hpp\n'}
+[1.072567] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_global_position.hpp\n'}
+[1.072622] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/sensor_optical_flow.hpp\n'}
+[1.072695] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp\n'}
+[1.072755] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/telemetry_status.hpp\n'}
+[1.072810] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/sensor_gps.hpp\n'}
+[1.072864] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_rates_setpoint.hpp\n'}
+[1.072919] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/debug_vect.hpp\n'}
+[1.072973] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/action_request.hpp\n'}
+[1.073027] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/failsafe_flags.hpp\n'}
+[1.073081] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_control_mode.hpp\n'}
+[1.073136] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/collision_constraints.hpp\n'}
+[1.073219] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/trajectory_bezier.hpp\n'}
+[1.073506] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_command.hpp\n'}
+[1.073607] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/trajectory_waypoint.hpp\n'}
+[1.073672] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/parameter_res.hpp\n'}
+[1.073734] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs\n'}
+[1.073797] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg\n'}
+[1.073914] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail\n'}
+[1.074031] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_status__type_support.cpp\n'}
+[1.074147] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/telemetry_status__type_support.cpp\n'}
+[1.074262] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/failsafe_flags__type_support.cpp\n'}
+[1.074350] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_set_state__type_support.cpp\n'}
+[1.074411] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude_setpoint__type_support.cpp\n'}
+[1.074471] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude__type_support.cpp\n'}
+[1.074542] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__type_support.cpp\n'}
+[1.074643] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_rates_setpoint__type_support.cpp\n'}
+[1.074711] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/action_request__type_support.cpp\n'}
+[1.074779] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_gps__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.074843] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/debug_vect__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.074928] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_odometry__type_support.cpp\n'}
+[1.074986] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/action_request__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.075043] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/timesync_status__type_support.cpp\n'}
+[1.075097] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.075151] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_waypoint__type_support.cpp\n'}
+[1.075205] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_res__type_support.cpp\n'}
+[1.075261] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_command__type_support.cpp\n'}
+[1.075321] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_optical_flow__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.075376] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_waypoint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.075430] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_status__type_support.cpp\n'}
+[1.075484] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.075541] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_bezier__type_support.cpp\n'}
+[1.075615] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/debug_vect__type_support.cpp\n'}
+[1.075705] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_local_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.075781] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude_setpoint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.075863] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/collision_constraints__type_support.cpp\n'}
+[1.075966] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_angular_velocity__type_support.cpp\n'}
+[1.076052] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/failsafe_flags__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.076137] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_local_position__type_support.cpp\n'}
+[1.076220] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.076307] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__type_support.cpp\n'}
+[1.076400] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_optical_flow__type_support.cpp\n'}
+[1.076480] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_angular_velocity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.076566] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_global_position__type_support.cpp\n'}
+[1.076656] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_bezier__type_support.cpp\n'}
+[1.076763] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_rates_setpoint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.076855] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/timesync_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.076954] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/onboard_computer_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.077114] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_global_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.077241] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.077400] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/collision_constraints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.077846] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_control_mode__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.078063] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_combined__type_support.cpp\n'}
+[1.078172] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_trajectory_bezier__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.078270] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_req__type_support.cpp\n'}
+[1.078372] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_gps__type_support.cpp\n'}
+[1.078459] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.078546] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_res__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.078682] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/onboard_computer_status__type_support.cpp\n'}
+[1.078775] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.078881] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_attitude__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.078966] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/obstacle_distance__type_support.cpp\n'}
+[1.079051] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_waypoint__type_support.cpp\n'}
+[1.079134] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_control_mode__type_support.cpp\n'}
+[1.079218] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/obstacle_distance__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.079303] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/parameter_req__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.079387] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_set_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.079471] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_bezier__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.079554] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/telemetry_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.079636] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_waypoint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.079718] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/sensor_combined__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.079802] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.079885] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_cpp.so\n'}
+[1.079990] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/environment/pythonpath.sh\n'}
+[1.080073] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/environment/pythonpath.dsv\n'}
+[1.080156] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/__init__.py\n'}
+[1.090983] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg\n'}
+[1.091464] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_telemetry_status_s.c\n'}
+[1.091739] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_commander_status_s.c\n'}
+[1.091911] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_timesync_status_s.c\n'}
+[1.092108] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_attitude.py\n'}
+[1.092248] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_control_mode_s.c\n'}
+[1.092312] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_parameter_res_s.c\n'}
+[1.092375] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_sensor_gps_s.c\n'}
+[1.092470] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_status.py\n'}
+[1.092564] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_timesync_status.py\n'}
+[1.092672] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_sensor_optical_flow.py\n'}
+[1.092879] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_sensor_combined.py\n'}
+[1.092991] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_local_position.py\n'}
+[1.093101] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_parameter_req_s.c\n'}
+[1.093233] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_telemetry_status.py\n'}
+[1.093370] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_debug_vect_s.c\n'}
+[1.093879] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_parameter_res.py\n'}
+[1.094059] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_attitude_s.c\n'}
+[1.094216] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_command_s.c\n'}
+[1.094452] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_action_request_s.c\n'}
+[1.094631] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_trajectory_bezier_s.c\n'}
+[1.094776] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_onboard_computer_status.py\n'}
+[1.094947] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_trajectory_waypoint.py\n'}
+[1.095080] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_trajectory_bezier.py\n'}
+[1.095151] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_odometry.py\n'}
+[1.095211] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_angular_velocity_s.c\n'}
+[1.095277] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_sensor_combined_s.c\n'}
+[1.095337] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_obstacle_distance_s.c\n'}
+[1.095423] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_trajectory_waypoint.py\n'}
+[1.095480] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_action_request.py\n'}
+[1.095537] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_trajectory_waypoint_s.c\n'}
+[1.095603] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_attitude_setpoint.py\n'}
+[1.095658] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_rates_setpoint_s.c\n'}
+[1.095768] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_rates_setpoint.py\n'}
+[1.095862] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_sensor_gps.py\n'}
+[1.095923] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_status_s.c\n'}
+[1.096023] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_commander_set_state_s.c\n'}
+[1.096166] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_collision_constraints_s.c\n'}
+[1.096244] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_global_position.py\n'}
+[1.096339] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_debug_vect.py\n'}
+[1.096458] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_command.py\n'}
+[1.096534] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_trajectory_setpoint.py\n'}
+[1.096646] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_attitude_setpoint_s.c\n'}
+[1.096731] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_global_position_s.c\n'}
+[1.096813] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_commander_status.py\n'}
+[1.096890] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_angular_velocity.py\n'}
+[1.096967] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_offboard_control_mode_s.c\n'}
+[1.097052] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_parameter_req.py\n'}
+[1.097124] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_local_position_s.c\n'}
+[1.097225] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_trajectory_bezier.py\n'}
+[1.097368] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/__init__.py\n'}
+[1.097571] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_collision_constraints.py\n'}
+[1.097674] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_trajectory_setpoint_s.c\n'}
+[1.097759] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_control_mode.py\n'}
+[1.097840] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_sensor_optical_flow_s.c\n'}
+[1.097935] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_failsafe_flags_s.c\n'}
+[1.098016] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_trajectory_waypoint_s.c\n'}
+[1.098097] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_odometry_s.c\n'}
+[1.098178] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_offboard_control_mode.py\n'}
+[1.098261] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_vehicle_trajectory_bezier_s.c\n'}
+[1.098353] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_onboard_computer_status_s.c\n'}
+[1.098435] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_obstacle_distance.py\n'}
+[1.098521] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_commander_set_state.py\n'}
+[1.098607] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/msg/_failsafe_flags.py\n'}
+[1.098688] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/px4_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.098766] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/px4_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.098844] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages/px4_msgs/px4_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.098924] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/lib/libpx4_msgs__python.so\n'}
+[1.099012] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/ActionRequest.idl\n'}
+[1.099089] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/CollisionConstraints.idl\n'}
+[1.099165] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/CommanderSetState.idl\n'}
+[1.099241] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/CommanderStatus.idl\n'}
+[1.099316] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/DebugVect.idl\n'}
+[1.099403] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/FailsafeFlags.idl\n'}
+[1.099480] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/ObstacleDistance.idl\n'}
+[1.099556] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/OffboardControlMode.idl\n'}
+[1.099631] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/OnboardComputerStatus.idl\n'}
+[1.099705] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/ParameterReq.idl\n'}
+[1.099788] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/ParameterRes.idl\n'}
+[1.099865] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/SensorCombined.idl\n'}
+[1.099941] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/SensorGps.idl\n'}
+[1.100016] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/SensorOpticalFlow.idl\n'}
+[1.100093] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/TelemetryStatus.idl\n'}
+[1.100209] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/TimesyncStatus.idl\n'}
+[1.100326] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/TrajectoryBezier.idl\n'}
+[1.100436] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/TrajectorySetpoint.idl\n'}
+[1.100520] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/TrajectoryWaypoint.idl\n'}
+[1.100604] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleAngularVelocity.idl\n'}
+[1.100682] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleAttitude.idl\n'}
+[1.100764] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleAttitudeSetpoint.idl\n'}
+[1.100840] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleCommand.idl\n'}
+[1.100914] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleControlMode.idl\n'}
+[1.100991] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleGlobalPosition.idl\n'}
+[1.101075] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleLocalPosition.idl\n'}
+[1.101149] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleOdometry.idl\n'}
+[1.101216] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleRatesSetpoint.idl\n'}
+[1.101393] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleStatus.idl\n'}
+[1.101456] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleTrajectoryBezier.idl\n'}
+[1.101552] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleTrajectoryWaypoint.idl\n'}
+[1.101625] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/ActionRequest.msg\n'}
+[1.101708] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/CollisionConstraints.msg\n'}
+[1.101766] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/CommanderSetState.msg\n'}
+[1.101837] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/CommanderStatus.msg\n'}
+[1.101908] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/DebugVect.msg\n'}
+[1.101967] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/FailsafeFlags.msg\n'}
+[1.102024] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/ObstacleDistance.msg\n'}
+[1.102105] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/OffboardControlMode.msg\n'}
+[1.102179] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/OnboardComputerStatus.msg\n'}
+[1.102238] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/ParameterReq.msg\n'}
+[1.102304] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/ParameterRes.msg\n'}
+[1.102367] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/SensorCombined.msg\n'}
+[1.102440] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/SensorGps.msg\n'}
+[1.102497] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/SensorOpticalFlow.msg\n'}
+[1.102597] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/TelemetryStatus.msg\n'}
+[1.102660] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/TimesyncStatus.msg\n'}
+[1.102743] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/TrajectoryBezier.msg\n'}
+[1.102875] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/TrajectorySetpoint.msg\n'}
+[1.102939] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/TrajectoryWaypoint.msg\n'}
+[1.103012] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleAngularVelocity.msg\n'}
+[1.103114] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleAttitude.msg\n'}
+[1.103225] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleAttitudeSetpoint.msg\n'}
+[1.103324] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleCommand.msg\n'}
+[1.103433] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleControlMode.msg\n'}
+[1.103528] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleGlobalPosition.msg\n'}
+[1.103650] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleLocalPosition.msg\n'}
+[1.103755] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleOdometry.msg\n'}
+[1.103812] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleRatesSetpoint.msg\n'}
+[1.103869] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleStatus.msg\n'}
+[1.103935] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleTrajectoryBezier.msg\n'}
+[1.104002] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/msg/VehicleTrajectoryWaypoint.msg\n'}
+[1.104090] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/ament_index/resource_index/package_run_dependencies/px4_msgs\n'}
+[1.104186] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/ament_index/resource_index/parent_prefix_path/px4_msgs\n'}
+[1.104256] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/environment/ament_prefix_path.sh\n'}
+[1.104335] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/environment/ament_prefix_path.dsv\n'}
+[1.104390] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/environment/path.sh\n'}
+[1.104454] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/environment/path.dsv\n'}
+[1.104519] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/local_setup.bash\n'}
+[1.104573] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/local_setup.sh\n'}
+[1.104627] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/local_setup.zsh\n'}
+[1.104681] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/local_setup.dsv\n'}
+[1.104735] (px4_msgs) StdoutLine: {'line': b'-- Installing: /root/colcon_ws/install/px4_msgs/share/px4_msgs/package.dsv\n'}
+[1.104789] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/ament_index/resource_index/packages/px4_msgs\n'}
+[1.104844] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgs__rosidl_generator_cExport.cmake\n'}
+[1.104898] (-) TimerEvent: {}
+[1.105046] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.105149] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.105420] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.105542] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.105612] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.105675] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.105742] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.105804] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.105872] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.105964] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.106207] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.106627] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.114325] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.114487] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.114620] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.114769] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.114915] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.115012] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgsConfig.cmake\n'}
+[1.115115] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgsConfig-version.cmake\n'}
+[1.115223] (px4_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_msgs/share/px4_msgs/package.xml\n'}
+[1.115337] (px4_msgs) CommandEnded: {'returncode': 0}
+[1.205253] (-) TimerEvent: {}
+[1.306508] (-) TimerEvent: {}
+[1.407013] (-) TimerEvent: {}
+[1.507329] (-) TimerEvent: {}
+[1.607741] (-) TimerEvent: {}
+[1.708036] (-) TimerEvent: {}
+[1.808400] (-) TimerEvent: {}
+[1.869073] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 0}
+[1.869641] (px4_ros_com) JobStarted: {'identifier': 'px4_ros_com'}
+[1.883992] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'cmake'}
+[1.885328] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'build'}
+[1.888807] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/colcon_ws/build/px4_ros_com', '--', '-j8', '-l8'], 'cwd': '/root/colcon_ws/build/px4_ros_com', 'env': OrderedDict([('JAVA_TOOL_OPTIONS', '-Dfile.encoding=UTF8'), ('HOSTNAME', 'kaleb-Inspiron-3847'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/colcon_ws/install/px4_msgs/lib:/root/colcon_ws/install/px4_ros_com/lib:/root/colcon_ws/install/microxrcedds_agent/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/colcon_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('CCACHE_UMASK', '000'), ('COLCON_PREFIX_PATH', '/root/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/colcon_ws/install/microxrcedds_agent/bin:/opt/ros/foxy/bin:/usr/lib/ccache:/opt/gradle/gradle-6.3-rc-4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FASTRTPSGEN_DIR', '/usr/local/bin/'), ('AMENT_PREFIX_PATH', '/root/colcon_ws/install/px4_ros_com:/root/colcon_ws/install/px4_msgs:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/colcon_ws/build/px4_ros_com'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'UTC'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/colcon_ws/install/px4_msgs:/root/colcon_ws/install/px4_ros_com:/root/colcon_ws/install/microxrcedds_agent:/opt/ros/foxy')]), 'shell': False}
+[1.908661] (-) TimerEvent: {}
+[1.955668] (px4_ros_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target offboard_control\x1b[0m\n'}
+[1.976264] (px4_ros_com) StdoutLine: {'line': b'[ 20%] Built target vehicle_gps_position_listener\n'}
+[1.976528] (px4_ros_com) StdoutLine: {'line': b'[ 40%] Built target sensor_combined_listener\n'}
+[1.979921] (px4_ros_com) StdoutLine: {'line': b'[ 60%] Built target frame_transforms\n'}
+[1.981199] (px4_ros_com) StdoutLine: {'line': b'[ 80%] Built target debug_vect_advertiser\n'}
+[1.991765] (px4_ros_com) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o\x1b[0m\n'}
+[2.008720] (-) TimerEvent: {}
+[2.109120] (-) TimerEvent: {}
+[2.209453] (-) TimerEvent: {}
+[2.309885] (-) TimerEvent: {}
+[2.410944] (-) TimerEvent: {}
+[2.511291] (-) TimerEvent: {}
+[2.611742] (-) TimerEvent: {}
+[2.712590] (-) TimerEvent: {}
+[2.812930] (-) TimerEvent: {}
+[2.913382] (-) TimerEvent: {}
+[3.013816] (-) TimerEvent: {}
+[3.114697] (-) TimerEvent: {}
+[3.215187] (-) TimerEvent: {}
+[3.315547] (-) TimerEvent: {}
+[3.416373] (-) TimerEvent: {}
+[3.516751] (-) TimerEvent: {}
+[3.617104] (-) TimerEvent: {}
+[3.717557] (-) TimerEvent: {}
+[3.818283] (-) TimerEvent: {}
+[3.918617] (-) TimerEvent: {}
+[4.019210] (-) TimerEvent: {}
+[4.120035] (-) TimerEvent: {}
+[4.220353] (-) TimerEvent: {}
+[4.320818] (-) TimerEvent: {}
+[4.421261] (-) TimerEvent: {}
+[4.521987] (-) TimerEvent: {}
+[4.622639] (-) TimerEvent: {}
+[4.723126] (-) TimerEvent: {}
+[4.823638] (-) TimerEvent: {}
+[4.923980] (-) TimerEvent: {}
+[5.024313] (-) TimerEvent: {}
+[5.124772] (-) TimerEvent: {}
+[5.225632] (-) TimerEvent: {}
+[5.325953] (-) TimerEvent: {}
+[5.426323] (-) TimerEvent: {}
+[5.526631] (-) TimerEvent: {}
+[5.626999] (-) TimerEvent: {}
+[5.727285] (-) TimerEvent: {}
+[5.827572] (-) TimerEvent: {}
+[5.927872] (-) TimerEvent: {}
+[6.028160] (-) TimerEvent: {}
+[6.128531] (-) TimerEvent: {}
+[6.228949] (-) TimerEvent: {}
+[6.329725] (-) TimerEvent: {}
+[6.430073] (-) TimerEvent: {}
+[6.530395] (-) TimerEvent: {}
+[6.630728] (-) TimerEvent: {}
+[6.731034] (-) TimerEvent: {}
+[6.831386] (-) TimerEvent: {}
+[6.842237] (px4_ros_com) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable offboard_control\x1b[0m\n'}
+[6.931516] (-) TimerEvent: {}
+[7.032232] (-) TimerEvent: {}
+[7.094878] (px4_ros_com) StdoutLine: {'line': b'[100%] Built target offboard_control\n'}
+[7.110913] (px4_ros_com) CommandEnded: {'returncode': 0}
+[7.132389] (-) TimerEvent: {}
+[7.159123] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'install'}
+[7.162158] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/colcon_ws/build/px4_ros_com'], 'cwd': '/root/colcon_ws/build/px4_ros_com', 'env': OrderedDict([('JAVA_TOOL_OPTIONS', '-Dfile.encoding=UTF8'), ('HOSTNAME', 'kaleb-Inspiron-3847'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/colcon_ws/install/px4_msgs/lib:/root/colcon_ws/install/px4_ros_com/lib:/root/colcon_ws/install/microxrcedds_agent/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/colcon_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('CCACHE_UMASK', '000'), ('COLCON_PREFIX_PATH', '/root/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/colcon_ws/install/microxrcedds_agent/bin:/opt/ros/foxy/bin:/usr/lib/ccache:/opt/gradle/gradle-6.3-rc-4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FASTRTPSGEN_DIR', '/usr/local/bin/'), ('AMENT_PREFIX_PATH', '/root/colcon_ws/install/px4_ros_com:/root/colcon_ws/install/px4_msgs:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/colcon_ws/build/px4_ros_com'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/colcon_ws/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'UTC'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/colcon_ws/install/px4_msgs:/root/colcon_ws/install/px4_ros_com:/root/colcon_ws/install/microxrcedds_agent:/opt/ros/foxy')]), 'shell': False}
+[7.177243] (px4_ros_com) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.177495] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener\n'}
+[7.177863] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener\n'}
+[7.178235] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser\n'}
+[7.178580] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /root/colcon_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control\n'}
+[7.179913] (px4_ros_com) StdoutLine: {'line': b'-- Set runtime path of "/root/colcon_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""\n'}
+[7.180150] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh\n'}
+[7.180235] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv\n'}
+[7.180299] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/include/px4_ros_com\n'}
+[7.180381] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/include/px4_ros_com/frame_transforms.h\n'}
+[7.180439] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/lib/libframe_transforms.so\n'}
+[7.180520] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com//launch\n'}
+[7.180648] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml\n'}
+[7.180736] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py\n'}
+[7.180966] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com//test\n'}
+[7.181167] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py\n'}
+[7.181261] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com//test/test_input.py\n'}
+[7.181329] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com//test/__init__.py\n'}
+[7.181394] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com//test/test_output.py\n'}
+[7.181459] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com\n'}
+[7.181553] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com\n'}
+[7.181622] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh\n'}
+[7.181687] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv\n'}
+[7.181751] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/environment/path.sh\n'}
+[7.181814] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/environment/path.dsv\n'}
+[7.181918] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/local_setup.bash\n'}
+[7.181982] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/local_setup.sh\n'}
+[7.182053] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/local_setup.zsh\n'}
+[7.182112] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/local_setup.dsv\n'}
+[7.182171] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/package.dsv\n'}
+[7.182280] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com\n'}
+[7.182343] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake\n'}
+[7.182403] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake\n'}
+[7.182527] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.182690] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.182768] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.182842] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.182916] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake\n'}
+[7.182990] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake\n'}
+[7.183076] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /root/colcon_ws/install/px4_ros_com/share/px4_ros_com/package.xml\n'}
+[7.184537] (px4_ros_com) CommandEnded: {'returncode': 0}
+[7.232569] (-) TimerEvent: {}
+[7.291405] (px4_ros_com) JobEnded: {'identifier': 'px4_ros_com', 'rc': 0}
+[7.292222] (-) EventReactorShutdown: {}

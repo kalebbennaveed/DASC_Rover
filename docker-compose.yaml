@@ -11,7 +11,5 @@ services:
       - DISPLAY=$DISPLAY
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
-      - ~/.ssh:/root/.ssh
       - ./colcon_ws:/root/colcon_ws
-      - ./PX4-Autopilot-Quad:/root/PX4-Autopilot-Quad
-      - ./PX4-Autopilot:/root/PX4-Autopilot
+      - ./PX4-Autopilot-Rover:/root/PX4-Autopilot

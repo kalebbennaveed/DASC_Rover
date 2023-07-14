@@ -28,4 +28,7 @@ qtcreator-*
 COLCON_IGNORE
 AMENT_IGNORE
 
+# Ignore PX4 files 
+PX4-Autopilot/
+PX4-Autopilot-Rover/
 *.swp

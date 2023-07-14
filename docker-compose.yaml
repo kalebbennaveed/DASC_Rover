@@ -8,8 +8,15 @@ services:
     privileged: true
     environment: 
       - QT_X11_NO_MITSHM=1
-      - DISPLAY=$DISPLAY
+      - DISPLAY=:1
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
+      - ~/.ssh:/root/.ssh
       - ./colcon_ws:/root/colcon_ws
-      - ./PX4-Autopilot-Rover:/root/PX4-Autopilot
+      - ./PX4-Autopilot:/root/PX4-Autopilot
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [gpu]

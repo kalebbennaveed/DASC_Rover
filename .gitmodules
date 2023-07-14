@@ -4,6 +4,3 @@
 [submodule "colcon_ws/src/px4_msgs"]
 	path = colcon_ws/src/px4_msgs
 	url = https://github.com/PX4/px4_msgs.git
-[submodule "PX4-Autopilot-Rover"]
-	path = PX4-Autopilot-Rover
-	url = https://github.com/kalebbennaveed/PX4-Autopilot-Rover.git
